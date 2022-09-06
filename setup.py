@@ -1,7 +1,5 @@
 from setuptools import setup
-
 package_name = 'my_package'
-
 setup(
     name=package_name,
     version='0.0.0',
@@ -15,7 +13,7 @@ setup(
     zip_safe=True,
     maintainer='Jessy',
     maintainer_email='bradshjk@dukes.jmu.edu',
-    description='My first package',
+    description='My first package ',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
